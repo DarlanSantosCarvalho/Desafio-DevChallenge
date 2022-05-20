@@ -106,7 +106,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 460px) {
   .menu {
     display: flex;
     flex-direction: column;
@@ -117,11 +117,15 @@
   nav ul li {
     display: inline;
     text-align: center;
-    margin-left: 40px;
+    margin-left: 45px;
   }
 
   ul {
     margin-top: 20px;
+  }
+
+  ul li a{
+    font-size: 1.2rem;
   }
 
   .login-fundo-vermelho a {
@@ -299,6 +303,10 @@
 
 @media(max-width: 417px){
 nav ul li {
-  margin-left: 20px;
+  margin-left: 45px;
+}
+
+ul li a{
+  font-size: 0.9rem;
 }
 }
