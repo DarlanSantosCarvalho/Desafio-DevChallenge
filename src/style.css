@@ -1,0 +1,230 @@
+:root{
+    --cor: #D6000D;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62,5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 0px 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.login-fundo-vermelho a{
+    background: var(--cor);
+    color: #ffff;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.painel-principal{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+}
+
+.img-painel img{
+    width: 80%;
+    height: 70%;
+}
+
+.orcamento-painel{
+    padding-top: 80px;
+}
+
+.orcamento-painel h2{
+    margin-bottom: 40px;
+}
+
+.strong{
+    color: var(--cor);
+    font-size: 3rem;
+}
+
+.botao-orcamento{
+    background: var(--cor);
+    color: #ffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.4rem;
+    width: 80%;
+}
+
+.servicos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 400px;
+}
+
+.servicos .vantagens{
+    padding-top: 100px;
+}
+
+.servicos ul li{
+    list-style-type: none;
+    font-size: 1.4rem;
+}
+
+.servicos .fa-solid{
+    color: var(--cor);
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.img-codando img{
+    width: 100%;
+    height: 100%;
+}
+
+.contato{
+    text-align: left;
+    position: relative;
+    margin: 30px 220px;
+    margin-bottom: 100px;
+}
+
+.contato h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.contato-celular{
+    padding: 0.9rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background: #DCDCDC;
+}
+
+.btn-confirm{
+    position: absolute;
+    left: 220px;
+    bottom: 0px;
+    background: var(--cor);
+    color: #ffff;
+    border: none;
+    padding: 0.9rem 40px;
+    border-radius: 10px;
+    font-weight: 700;
+}   
+
+.feedbacks{
+    margin: 200px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa-circle{
+    font-size: 4.5rem;
+    color: red;
+    padding: 15px;
+}
+
+.feedback{
+    display: flex;
+    width: 45%;
+    height: 200px;
+    background: #DCDCDC;
+}
+
+.relato{
+    padding: 20px;
+    padding-top: 2rem;
+    font-weight: 700;
+}
+
+.relato p{
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 100;
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slogan h2{
+    font-size: 3rem;
+    padding: 40px;
+}
+
+.slogan p{
+    font-size: 1.4rem;
+    padding: 20px;
+}
+
+
+.sobre{
+    width: 20%;
+}
+
+.sobre h2{
+    font-size: 1.7rem;
+    padding: 60px;
+    width: 50%;
+}
+
+.sobre p{
+    font-size: 1.4rem;
+}
+
+.endereco h2{
+    font-size: 1.7rem;
+    padding: 60px 0px;
+}
+
+.endereco p{
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.redes-sociais h2{
+    font-size: 1.7rem;
+    padding: 60px 0px;
+}
+
+.icone-rede-social{
+    font-size: 3rem;
+    padding: 60px 0px;
+    color: red;
+}
+
+.fa-brands{
+    margin-right: 20px;
+}
