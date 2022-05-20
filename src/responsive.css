@@ -1,7 +1,7 @@
 @media (max-width: 1024px) {
 }
 
-@media (max-width: 768px) {
+@media (max-width: 890px) {
   .btn-confirm {
     left: 90%;
     bottom: 0px;
@@ -89,7 +89,7 @@
   }
 
   .btn-confirm {
-    padding: 1rem 35px;
+    padding: 0.8rem 30px;
     margin-top: 10px;
     position: relative;
     font-size: 1rem;
@@ -98,6 +98,10 @@
 
   .btn-confirm p {
     width: 150px;
+  }
+
+  footer{
+    margin-top: 100px;
   }
 }
 
@@ -161,6 +165,14 @@
     font-size: 1.2rem;
   }
 
+  .btn-confirm {
+    padding: 0.5rem 20px;
+    margin-top: 10px;
+    position: relative;
+    font-size: 0.8rem;
+    left: 0px;
+  }
+
   .servicos {
     flex-direction: column-reverse;
     align-items: center;
@@ -194,9 +206,9 @@
   }
 
   .relato {
-    padding: 20px;
-    padding-top: 2rem;
+    margin-right: 50px;
     font-weight: 700;
+    text-align: center;
   }
 
   .relato p {
